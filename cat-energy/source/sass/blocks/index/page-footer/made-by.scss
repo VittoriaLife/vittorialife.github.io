@@ -1,0 +1,80 @@
+.made-by {
+  display: flex;
+  margin-bottom: 14px;
+  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 16px;
+  }
+}
+
+.made-by__link {
+  padding-top: 29px;
+  padding-left: 6px;
+  font-family: $font-arial;
+  font-size: 16px;
+  line-height: 16px;
+  color: #444444;
+  text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 19px;
+    padding-left: 0;
+  }
+}
+
+.made-by__name {
+  font-size: 16px;
+  line-height: 16px;
+  color: #444444;
+  text-decoration: none;
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.made-by__icon-link {
+  &--visually-hidden {
+    @include visually-hidden;
+  }
+
+  &:hover .made-by__icon {
+    fill: #68b738;
+  }
+
+  &:active .made-by__icon {
+    fill: #68b738;
+    opacity: 0.3;
+  }
+}
+
+.made-by__icon {
+  width: 42px;
+  padding-top: 7px;
+  margin-left: 133px;
+  fill: #666666;
+
+  @media (min-width: $tablet-width) {
+    width: 47px;
+    height: 40px;
+    margin-left: 11px;
+    padding-top: 6px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: -6px;
+    padding-top: 8px;
+  }
+}

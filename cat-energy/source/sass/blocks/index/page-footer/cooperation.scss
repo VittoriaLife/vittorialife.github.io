@@ -1,0 +1,87 @@
+.cooperation {
+  display: flex;
+  justify-content: space-around;
+
+  &--form {
+    padding-top: 31px;
+  }
+
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+    padding-bottom: 58px;
+
+    &--form {
+      padding-top: 64px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 94px;
+    left: 110px;
+    padding-left: 18px;
+    padding-bottom: 49px;
+    width: 535px;
+    height: 154px;
+    background-color: #ffffff;
+
+    &--form {
+      padding-top: 0;
+    }
+  }
+}
+
+.cooperation__welcome-words {
+  width: 130px;
+  margin: 0;
+  margin-left: -3px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #111111;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    width: 165px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 60px;
+    margin-top: 67px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.cooperation__address {
+  width: 135px;
+  margin: 0;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    width: 155px;
+    font-size: 16px;
+    text-align: end;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 65px;
+    padding-right: 70px;
+    width: 157px;
+    font-size: 16px;
+    text-align: start;
+  }
+}
+
+.cooperation__city {
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin-top: 20px;
+  }
+}

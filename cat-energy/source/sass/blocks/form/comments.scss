@@ -1,0 +1,49 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments__legend {
+  margin-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 22px;
+  font-size: 24px;
+  line-height: 24px;
+  color: $black-color;
+  background-color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 76px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 220px;
+    margin-left: -39px;
+    padding-right: 0;
+  }
+}
+
+.comments__words {
+  margin-left: 20px;
+  padding-top: 13px;
+  padding-left: 20px;
+  width: 258px;
+  height: 133px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 20px;
+    margin-left: 40px;
+    width: 606px;
+    height: 158px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding-left: 56px;
+    width: 1160px;
+  }
+}

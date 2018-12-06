@@ -1,0 +1,95 @@
+.cat-present {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding-top: 65px;
+  padding-bottom: 31px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  background-color: $light-green-color;
+  background-image: url("/img/gift-photo-mobile@1x.jpg");
+  background-size: 280px auto;
+  background-repeat: no-repeat;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("/img/gift-photo-mobile@2x.jpg");
+  }
+
+  @media (min-width: $tablet-width) {
+    margin-top: 71px;
+    padding-top: 30px;
+    padding-bottom: 58px;
+    background-image: url("/img/gift-photo-tablet@1x.jpg");
+    background-size: 708px auto;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("/img/gift-photo-tablet@2x.jpg");
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-left: 77px;
+    padding-bottom: 33px;
+    background-image: url("/img/gift-photo-desktop@1x.jpg");
+    background-size: 245px auto;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("/img/gift-photo-desktop@2x.jpg");
+    }
+  }
+}
+
+
+.cat-present-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 62px;
+    width: 495px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 21px;
+    width: 195px;
+  }
+}
+
+.cat-present__text {
+  width: 162px;
+  margin-top: 62px;
+  margin-bottom: 10px;
+  font-family: $font-arial;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+
+.cat-present__image {
+  fill: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 16px;
+  }
+}

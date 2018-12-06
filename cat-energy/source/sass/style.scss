@@ -1,0 +1,42 @@
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+}
+
+@import "mixin.scss";
+@import "variables.scss";
+@import "fonts.scss";
+@import "blocks/index/page-header/page-header.scss";
+@import "blocks/index/page-header/main-navigation.scss";
+@import "blocks/index/page-header/site-list.scss";
+@import "blocks/index/page-main/show-card.scss";
+@import "blocks/index/page-main/page-main.scss";
+@import "blocks/index/page-main/programs.scss";
+@import "blocks/index/page-main/plan.scss";
+@import "blocks/index/page-main/work-process.scss";
+@import "blocks/index/page-main/advantages.scss";
+@import "blocks/index/page-main/clients.scss";
+@import "blocks/index/page-main/weight.scss";
+@import "blocks/index/page-main/days.scss";
+@import "blocks/index/page-main/inputs.scss";
+@import "blocks/index/page-main/result.scss";
+@import "blocks/index/page-main/switcher.scss";
+@import "blocks/index/page-footer/page-footer.scss";
+@import "blocks/index/page-footer/cooperation.scss";
+@import "blocks/index/page-footer/social-list.scss";
+@import "blocks/index/page-footer/made-by.scss";
+@import "blocks/form/main-form.scss";
+@import "blocks/form/users-data.scss";
+@import "blocks/form/personal-information.scss";
+@import "blocks/form/goals.scss";
+@import "blocks/form/contacts.scss";
+@import "blocks/form/comments.scss";
+@import "blocks/form/more.scss";
+@import "blocks/catalog/main-catalog.scss";
+@import "blocks/catalog/product.scss";
+@import "blocks/catalog/goods.scss";
+@import "blocks/catalog/extra-goods.scss";
+@import "blocks/catalog/card-product.scss";
+@import "blocks/catalog/cat-present.scss";
