@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виктория Кашина](https://up.htmlacademy.ru/htmlcss/21/user/186965).
-* Наставник: [Дмитрий Селиванов](https://htmlacademy.ru/profile/dmitrii_selivanov).
+* Наставник:
 
 ---
 
