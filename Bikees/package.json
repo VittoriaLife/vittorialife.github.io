@@ -1,0 +1,38 @@
+{
+  "name": "bikees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VittoriaLife/bikees.git"
+  },
+  "author": "V.K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VittoriaLife/bikees/issues"
+  },
+  "homepage": "https://github.com/VittoriaLife/bikees#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-webp": "^4.0.1",
+    "plumber": "^0.4.8",
+    "posthtml-include": "^1.2.0"
+  }
+}
