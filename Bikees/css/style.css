@@ -232,20 +232,20 @@ body {
   background-size: cover;
   background-repeat: no-repeat; }
   .models__wrapper--fixies {
-    background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("/img/bike-mobile.jpg");
-    background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("/img/bike-mobile.webp"); }
+    background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("../img/bike-mobile.jpg");
+    background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("../img/bike-mobile.webp"); }
   .models__wrapper--cruisers {
-    background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("/img/bike-mobile-2.jpg");
-    background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("/img/bike-mobile-2.webp"); }
+    background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("../img/bike-mobile-2.jpg");
+    background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("../img/bike-mobile-2.webp"); }
   @media (min-width: 1320px) {
     .models__wrapper {
       width: 660px; }
       .models__wrapper--fixies {
-        background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("/img/bike-desktop.jpg");
-        background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("/img/bike-desktop.webp"); }
+        background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("../img/bike-desktop.jpg");
+        background-image: linear-gradient(to top, rgba(72, 177, 176, 0.7), rgba(25, 64, 174, 0.7)), url("../img/bike-desktop.webp"); }
       .models__wrapper--cruisers {
-        background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("/img/bike-desktop-2.jpg");
-        background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("/img/bike-desktop-2.webp"); } }
+        background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("../img/bike-desktop-2.jpg");
+        background-image: linear-gradient(to top, rgba(225, 146, 255, 0.7), rgba(126, 49, 192, 0.7)), url("../img/bike-desktop-2.webp"); } }
 
 .models__item {
   display: flex;
@@ -534,7 +534,7 @@ body {
   height: 50px; }
 
 .social-media__image {
-  background-image: url("/img/social-media-sprite.svg");
+  background-image: url("../img/social-media-sprite.svg");
   background-size: 125px 30px;
   background-repeat: no-repeat;
   background-position: 15px 1px;
