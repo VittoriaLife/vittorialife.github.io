@@ -1,0 +1,159 @@
+/* создать сетку каталога состоящую из 4х колонок и 2 рядов с помощью flex */
+
+.catalog {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.catalog-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;  /*поменять направление осей с дефолтного состояния */
+}
+
+.product {
+  width: 247px;
+}
+
+.product--align { /*выравнить один элемент по поперечней оси */
+  align-self: center;
+}
+
+.catalog-wrap--second {
+  justify-content: flex-end; /* задать выравнивание ряду flex-end */
+}
+
+
+
+
+
+/*создать сетку каталога состоящую из 4х колонок и 2 рядов с помощью inline-block*/
+
+.catalog-second {
+  width: 1220px;
+  margin: 0 auto;
+}
+  
+.product-second {
+  width: 247px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+} 
+
+
+/*создать сетку каталога состоящую из 4х колонок и 2 рядов с помощью float*/
+
+
+.catalog-third {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.product-third {
+  width: 247px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+
+
+/* создать html таблицу из двух рядов и 4 ячеек*/
+.table-block {
+  margin-top: 50px;
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.main-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-table td {
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.main-table--second {
+  margin-top: 20px;
+}
+
+
+
+/*создать таблицу из двух рядов и 4 ячеек используя для разметки только div*/
+
+.pseudo-table {
+  width: 1220px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.product-box {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+
+.product-box--second {
+  border-bottom: 1px solid black;
+}
+
+.product-box__item {
+  width: 305px;
+  padding: 5px 10px;
+  border-right: 1px solid black;
+}
+
+.product-box__item:first-child {
+  border-left: 1px solid black;
+}
+
+
+.product-box--third {
+  border-bottom: 1px solid black;
+}
+
+.product-box--third .product-box__item {
+  width: 100%;
+}
+
+
+/*Сделать обыкновенный аккордеон. Не важно JS или JQUERY, но обязательно с нуля.*/
+
+.accordion {
+  width: 1220px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.accordion-wrap {
+  margin-bottom: 10px;
+}
+
+.accordion-title-wrap {
+  background-color: #68c34a;
+  border-radius: 10px;
+}
+
+.accordion__title {
+  cursor: pointer;
+}
+
+.accordion-text-wrap  {
+  background-color: #b3de92;
+  border-radius: 10px;
+}
+
+.accordion__text,
+.accordion__title {
+  padding: 10px;
+  margin: 0;
+}
+ 
+.accordion-text-wrap--hidden {
+  display: none;
+} 
+
+
