@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <title>Test</title>
+</head>
+<body>
+  <div class="header-cover">
+  <header class='page-header'>
+    <picture>
+      <source media="(min-width: 768px)" srcset="img/logo-top-desktop.svg">
+      <img src="img/logo-mob.svg" alt="Логотип" class="page-header__logo" width="137" height="38">
+    </picture>
+    <nav class="page-header__nav main-navigation main-navigation--opened main-navigation--no-js"> 
+       <button class="main-navigation__button" type="button">
+        <span class="main-navigation__visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-navigation__wrapper">
+        <ul class="main-navigation__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link" href="#table-price">Цены</a>
+          </li>
+          <li class="site-list__item ">
+            <a class="site-list__link" href="#page-kp">Страница-КП</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#description-block">Описание</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="page-header__contacts info-list">
+      <li class="info__item info__item--phone"><a href="tel:8800 555 55 55" class="info__link">8800 555 55 55</a></li>
+      <li class="info__item info__item--email"><a href="mailto:info@post.com" class="info__link">info@post.com</a></li>
+      <li class="info__item info__item--time"><p>с 8:00 до 21:00 Пн-Сб</p></li>
+    </ul>
+  </header>
+</div>
+  <div class="cover">
+  <main class="page-main">
+    <div class="page-main__wrapper">
+    <section class="price nav" id="table-price">
+      <div class="price__wrapper">
+        <div class="price__item commercial">
+          <ul class="commercial__list">
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+          </ul>
+        </div>
+        <div class="price__wrap">
+        <div class="price__inner">
+          <div class="price__title-wrap">
+            <h2 class="price__title headline">Таблица цен<br>
+              <span class="price__title-under">С НДС (какой-тo текст)</span>
+            </h2>
+            <p class="price__text">Прежде всего,  уровень погружения не дает нам иного выбора, кроме определения анализа существующих паттернов поведения. <br>
+              <a href="#" class="price__link">Ссылка на продукт»</a>
+            </p>
+          </div>
+        <div class="table-price-wrap">
+          <table class="table-price table-price--mobile">
+            <tr>
+              <td class="table-price__point">Пункт</td>
+              <td class="table-price__point">Пункт</td>
+              <td class="table-price__point">Пункт</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="table-headline">Заголовок продукта</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="table-headline">Заголовок продукта</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </table>
+          <table class="table-price table-price--desktop">
+            <tr>
+              <td class="table-price__point table-price__point--long">Пункт таблицы</td>
+              <td class="table-price__point">Пункт</td>
+              <td class="table-price__point">Пункт</td>
+              <td class="table-price__point table-price__point--long">Пункт таблицы</td>
+              <td class="table-price__point">Пункт</td>
+              <td class="table-price__point">Пункт</td>
+              <td class="table-price__point table-price__point--long">Пункт таблицы</td>
+            </tr>
+            <tr>
+              <td colspan="7" class="table-headline">Заголовок продукта</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td colspan="7" class="table-headline">Заголовок продукта</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+        <aside class="animation__block">
+          <div class="animation__block-wrap ">
+            <img src="img/wave-first.png" class="animation__img animation__img--first anim-items anim-no-hide" width="98" height="116">
+          </div>
+        </aside>
+      </div>
+    </div>
+    </section>
+
+    <section id="page-kp" class="page nav">
+      <div class="page__wrapper">
+        <div class="price__item commercial">
+          <ul class="commercial__list">
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+          </ul>
+        </div>
+        <div class="page__inner">
+          <div class="inner">
+          <div class="page__top-wrap">
+            <h2 class="page__title headline">Страница-КП</h2>
+            <p class="page__text page__text--center">Кстати, тщательные исследования конкурентов представлены в исключительно положительном свете. Банальные, но неопровержимые выводы, а также явные признаки победы институциализации неоднозначны и будут в равной степени предоставлены сами себе. 
+            </p>
+          </div>
+     <div class="page__wrap">
+       <div class="wrapper">
+        <div class="page__img-wrap">
+          <picture>  
+            <source srcset="img/page-kp-circles-desktop.png" media="(min-width: 768px)">
+            <img src="img/page-kp-circles.png" alt="Кольца блока" width="270" height="160" class="page__img">
+          </picture>
+        </div>
+      <div class="page__text-wrap">
+        <p class="page__text page__text--small">Современная методология разработки оказалась ошибочной</p>
+      <ul class="page__list point-list">
+        <li class="point-list__item">
+          <p class="point-list__text point-list__text--first"><span class="point-list__text-red">Пункт 1</span> – Следует отметить, что экономическая повестка сегодняшнего дня является качественно новой ступенью прогресса профессионального сообщества. С учетом сложившейся международной обстановки, базовый вектор развития обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений.</p>
+        </li>
+        <li class="point-list__item">
+          <p class="point-list__text point-list__text--second"><span class="point-list__text-red">Пункт 2</span> – Для современного мира сплоченность команды профессионалов в значительной степени обусловливает важность новых предложений. Но сложившаяся структура организации создает необходимость включения в производственный план целого ряда внеочередных мероприятий с учетом комплекса поставленных обществом задач! Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня требует анализа приоритизации разума над эмоциями.</p>
+        </li>
+        <li class="point-list__item">
+          <p class="point-list__text point-list__text--third"><span class="point-list__text-red">Пункт 3</span> – Повседневная практика показывает, что убежденность некоторых оппонентов однозначно фиксирует необходимость системы обучения кадров, соответствующей насущным потребностям. Вот вам яркий пример современных тенденций - высококачественный прототип будущего проекта обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+        </li>
+      </ul>
+      </div>
+    </div>
+      <div class="page__more">
+        <ul class="page__list point-list">
+          <li class="point-list__item">
+            <p class="point-list__text point-list__text--fourth"><span class="point-list__text-red">Пункт 4</span> – Противоположная точка зрения подразумевает, что базовые сценарии поведения пользователей призваны к ответу. Повседневная практика показывает, что существующая теория является качественно новой ступенью прогресса профессионального сообщества. В рамках спецификации современных стандартов, акционеры крупнейших компаний освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности обеспечивает актуальность первоочередных требований.</p>
+          </li>
+        </ul>
+        <div class="page__text-more-wrap">
+          <p class="page__text page__text--addition">Добавим:</p>
+          <p class="page__text"><span class="page__text--bold-red">Вот вам яркий пример современных тенденций</span> - сплоченность команды профессионалов обеспечивает широкому кругу (специалистов) участие в формировании форм воздействия.</p>
+          <p class="page__text page__text--last">Противоположная точка зрения подразумевает, что стремящиеся вытеснить традиционное производство, нанотехнологии призваны к ответу. Каждый из нас понимает очевидную вещь: экономическая повестка сегодняшнего дня представляет собой интересный эксперимент проверки дальнейших направлений развития. </p>
+        </div>
+      </div>
+     </div>
+    </div>
+    <aside class="animation__block">
+      <div class="animation__block-wrap ">
+        <img src="img/wave-third.png" class="animation__img animation__img--third anim-items anim-no-hide" width="66" height="116">
+        <img src="img/wave-second.png" class="animation__img animation__img--second anim-items anim-no-hide" width="117" height="116">
+        <img src="img/wave-first.png" class="animation__img animation__img--first active anim-no-hide" width="98" height="116">
+      </div>
+    </aside>
+      </div>
+      </div>
+    </section>
+    <section id="description-block" class="description nav">
+      <div class="description__wrapper">
+        <div class="price__item commercial">
+          <ul class="commercial__list">
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+            <li class="commercial__item"><p>Реклама</p></li>
+          </ul>
+        </div>
+        <div class="description__inner">
+          <div class="wrap">
+          <div class="description__top-wrap">
+            <h2 class="description__title headline">Описание</h2>
+            <p class="description__intro">Господа, внедрение современных методик предопределяет высокую востребованность системы массового участия.</p>
+          </div>
+          <div class="description__inner-wrap">
+            <div class="description__img-wrap">
+                <source srcset="img/images_block-desktop.png" media="(min-width: 768px)">
+                <img src="img/images_block.png" width="245" height="236" alt="" class="description__img">
+              </div>
+                <ul class="desctiption__list definition-list">
+                  <li class="definition-list__item">
+                    <p class="definition-list__text definition-list__text--first">- Учитывая ключевые <span class="definition-list__text-inner">сценарии поведения</span>
+                    </p>
+                  </li>
+                  <li class="definition-list__item">
+                    <p class="definition-list__text">- <span class="definition-list__text-inner">Постоянный количественный рост </span>и сфера нашей активности предопределяет высокую востребованность стандартных подходов 
+                    </p>
+                  </li>
+                  <li class="definition-list__item">
+                    <p class="definition-list__text definition-list__text--third">- Повседневная практика показывает, что <span class="definition-list__text-inner">граница обучения кадров</span> не дает нам иного выбора, кроме определения кластеризации усилий</p>
+                  </li>
+                  <li class="definition-list__item">
+                    <p class="definition-list__text definition-list__text--fourth">- В своем стремлении улучшить пользовательский опыт мы упускаем, что <span class="definition-list__text-inner">многие известные личности</span> лишь добавляют фракционных разногласий и преданы социально-демократической анафеме</p>
+                  </li>
+                  <li class="definition-list__item">
+                    <p class="definition-list__text definition-list__text--fifth">- Также как сложившаяся структура организации предоставляет широкие возможности для <span class="definition-list__text-inner">соответствующих условий</span> активизации</p>
+                  </li>
+                  <li class="definition-list__item">
+                    <p class="definition-list__text definition-list__text--six">- В своем стремлении повысить качество жизни, они забывают, что понимание сути ресурсосберегающих технологий предполагает независимые <span class="definition-list__text-inner">способы реализации экспериментов</span>, поражающих по своей масштабности и грандиозности</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="description__wrap">
+                <div class="description__text-wrapper">
+                  <p class="description__text description__text--first">
+                    Банальные, но неопровержимые выводы, а также независимые государства лишь добавляют фракционных разногласий и объявлены <span class="description__inner-text">нарушающими общечеловеческие</span> нормы этики и морали. 
+                  </p>
+                  <p class="description__text description__text--second">
+                    Не следует, однако, забывать, что курс на социально-ориентированный национальный проект влечет за собой процесс внедрения и модернизации <span class="description__inner-text">соответствующих условий активизации</span>. В целом, конечно, постоянный количественный рост и сфера нашей активности не оставляет шанса для форм воздействия.
+                  </p> 
+                  <p class="description__text description__text--third">Идейные соображения высшего порядка, а также базовый вектор развития однозначно фиксирует необходимость существующих <span class="description__inner-text">финансовых и административных условий</span>. Банальные, но неопровержимые выводы, а также непосредственные участники технического прогресса представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть объявлены нарушающими общечеловеческие нормы этики и морали! Учитывая ключевые сценарии поведения, постоянное информационно-пропагандистское обеспечение нашей деятельности не дает нам иного выбора, кроме определения стандартных подходов.
+                  </p>
+                  <p class="description__text description__text--fourth">Учитывая ключевые сценарии <span class="description__inner-text">поведения, существующая теория позволяет выполнить важные задания по разработке вывода текущих активов</span>. Учитывая ключевые сценарии поведения, глубокий уровень погружения требует анализа поставленных обществом задач.</p>
+                </div>
+                <img src="img/image-block.jpg" width="169" height="199" alt="image-block" class="description__img-one">
+              </div>
+            </div>
+              <aside class="animation__block">
+                <div class="animation__block-wrap ">
+                  <img src="img/wave-fifth.png" class="animation__img animation__img--fifth anim-items anim-no-hide" width="80" height="116">
+                  <img src="img/wave-fourth.png" class="animation__img animation__img--fourth anim-items anim-no-hide" width="118" height="116">
+                  <img src="img/wave-third.png" class="animation__img animation__img--third active anim-no-hide" width="66" height="116">
+                  <img src="img/wave-second.png" class="animation__img animation__img--second active anim-no-hide" width="117" height="116">
+                  <img src="img/wave-first.png" class="animation__img animation__img--first active anim-no-hide" width="98" height="116">
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+<script src="js/menu-items.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/animation.js"></script>
+
+</body>
+</html>
